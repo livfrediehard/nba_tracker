@@ -33,6 +33,12 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_devlopment_dependency "bundler", "~>2.0"
+  spec.add_devlopment_dependency "rake", "~>10.0"
+  spec.add_devlopment_dependency "pry"
+  spec.add_devlopment_dependency "nokogiri"
+
+
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
