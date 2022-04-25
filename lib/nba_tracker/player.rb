@@ -1,5 +1,5 @@
 class NbaTracker::Player
-    attr_accessor :name, :team, :url, :key_info
+    attr_accessor :name, :team, :url
     @@all = []
      
     def initialize(name, team, url)

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Brian"]
   spec.email = ["bpalmer710@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "This Gem allows you to access NBA.com for information."
+  spec.description = "Uses nokogiri to scrape NBA.com to see teams and players. Information is sourced directly from site and accurate. Great way to keep track of your favorite team's roster."
+  spec.homepage = "https://github.com/livfrediehard/nba_tracker"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
