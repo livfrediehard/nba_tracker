@@ -1,29 +1,20 @@
 class NbaTracker::Player
-    attr_accessor :name, :team, :url
+    attr_accessor :name, :position, :jersey
     @@all = []
      
-    def initialize(name, team, url)
-      @name = name
-      @team = team
-      @url = url
-      @key_info = []
-      # notify month about the event
-      add_to_team
-      save
-    end 
-    
-    def self.all 
-      @@all 
+    def initialize(name, position, jersey)
+        @name = name
+        @position = position
+        @jersey = jersey
+        save
     end
-    
-    def add_to_team
-      @team.player << self unless @team.players.include?(self)
-    end 
-    
-    def get_event_details
-      NbaTracker::Scraper.scrape_key_info(self) if @key_info.empty?
-    end 
-    
+
+    def self.all
+        NbaTracker::Scraper.scrape_page if @@all.empty?
+        @@all
+    end
+
     def save
-      @@all << self
+        @@all << self
     end
+end
