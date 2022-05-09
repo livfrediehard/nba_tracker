@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Run tracker using ./bin/nba_tracker. This will take you to a current roster for the NBA Heat. From here you can choose a player and see there position as well as jersey number. 
+Run tracker using ./bin/nba_tracker. This will take you to a current roster for the NBA Heat. From here you can choose a player and see there position as well as jersey number. 
 
 ## Development
 
