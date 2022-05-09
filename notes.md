@@ -9,8 +9,6 @@
 
 CLI APP
 
-3/4/22
-
 - What will your app do? 
    This app will get data from NBA site for the Miami Heat
 - What is the user experience?
